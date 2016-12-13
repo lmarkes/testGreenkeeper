@@ -1,0 +1,7 @@
+--recursive
+--harmony
+--require babel-register
+--require babel-polyfill
+--require test/helpers/envhook
+--require test/helpers/jsdom
+test

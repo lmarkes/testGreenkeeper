@@ -1,0 +1,52 @@
+{
+  "name": "fin-frontend",
+  "version": "1.0.0",
+  "description": "Financials react frontend",
+  "main": "index.js",
+  "scripts": {
+    "report": "nyc report --reporter html npm test && open ./coverage/index.html",
+    "coverage": "nyc check-coverage --lines 100",
+    "watch": "webpack -d --watch",
+    "build": "webpack -p",
+    "test": "nyc mocha"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "nyc": {
+    "extension": [
+      ".jsx",
+      ".js"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.15.0",
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "dotenv": "^2.0.0",
+    "material-ui": "^0.16.0",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.3",
+    "react-dom": "^15.3.2",
+    "react-dropzone": "^3.6.0",
+    "react-router": "^2.8.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "url": "^0.11.0",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.7.1",
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "jsdom": "^9.6.0",
+    "mocha": "^3.1.2",
+    "nyc": "^8.3.2",
+    "react-addons-test-utils": "^15.3.2",
+    "sinon": "^1.17.6",
+    "webpack-notifier": "^1.4.1"
+  }
+}

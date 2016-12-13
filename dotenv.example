@@ -1,0 +1,2 @@
+# protocol and host name core instance without trailing slash in quotes (example 'https://monsters-tst.kuali.co')
+CORE_URL='https://environment.kuali.co'

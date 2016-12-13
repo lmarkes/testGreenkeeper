@@ -1,0 +1,5 @@
+# url to test mongodb database including username and password
+spring.data.mongodb.uri=mongodb://kfs:kfs@127.0.0.1:27017/kfs
+
+# url to core instance without trailing slash
+core.authentication.filter.authBaseUrl=https://host

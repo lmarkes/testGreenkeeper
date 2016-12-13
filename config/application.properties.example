@@ -1,0 +1,6 @@
+# Mongo database url, including username and password
+spring.data.mongodb.uri=mongodb://kfs:kfs@127.0.0.1:27017/kfs
+
+# protocol and host name core instance without trailing slash (example https://monsters-tst.kuali.co)
+core.authentication.filter.authBaseUrl=https://monsters-tst.kuali.co
+
