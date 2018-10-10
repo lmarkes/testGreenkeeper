@@ -47,6 +47,6 @@
     "nyc": "^10.0.0",
     "react-addons-test-utils": "^15.3.2",
     "sinon": "^1.17.6",
-    "webpack-notifier": "^1.4.1"
+    "webpack-notifier": "^1.7.0"
   }
 }
